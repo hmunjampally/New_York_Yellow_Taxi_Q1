@@ -1,6 +1,6 @@
 # 🚖 Advanced SQL Analysis on NYC Yellow Taxi Trips (Q1 2024)
 
-This project explores and analyzes over **8.5 million NYC Yellow Taxi trips (Jan–Mar 2024)** using only **SQL**. It demonstrates real-world mid-level SQL skills like dimensional modeling, CTEs, window functions, time-series aggregation, and query optimization — all within **MySQL**.
+This project analyzes over **8.5 million NYC Yellow Taxi trips (Jan–Mar 2024)** using only **SQL** and **Python**. It demonstrates advanced SQL skills — including dimensional modeling, CTEs, window functions, and time-series logic — paired with Python for bulk data ingestion.
 
 ---
 
@@ -22,8 +22,8 @@ Build a high-performance, SQL-only data model and analytical layer to uncover in
 ## 🛠️ Tools & Tech Stack
 
 - MySQL 8.0
-- SQLAlchemy (Python) for bulk import
-- Excel/Power BI-ready views
+- Python 3 (pandas, sqlalchemy, mysql-connector)
+- Power BI-ready views (in progress)
 
 ---
 
