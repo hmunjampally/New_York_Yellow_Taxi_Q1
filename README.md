@@ -110,14 +110,15 @@ Build a high-performance, SQL-only data model and analytical layer to uncover in
 
 ## 📁 Project Files
 
-| File                        | Purpose                             |
-|-----------------------------|-------------------------------------|
-| `table.sql`                | Fact table + index creation         |
-| `Dimension tables.sql`     | All 3 dimension tables              |
-| `Indexing.sql`             | Indexes for optimization            |
-| `SQL queries and views.sql`| All key queries & views             |
-| `insights.sql`             | Bonus KPIs + deep insights          |
-| `README.md`                | Documentation (this file)           |
+| File                                       | Purpose                             |
+|--------------------------------------------|-------------------------------------|
+| `python/connecting_python_mysql.py`        | Fact table + index creation         |
+| `sql/table.sql`                            | Fact table + index creation         |
+| `sql/Dimension tables.sql`                 | All 3 dimension tables              |
+| `sql/Indexing.sql`                         | Indexes for optimization            |
+| `sql/SQL queries and views.sql`            | All key queries & views             |
+| `sql/insights.sql`                         | Bonus KPIs + deep insights          |
+| `README.md`                                | Documentation (this file)           |
 
 ---
 
