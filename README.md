@@ -19,11 +19,21 @@ Build a high-performance, SQL-only data model and analytical layer to uncover in
 
 ---
 
+## 🔄 Data Ingestion Using Python
+
+- Loaded large CSV files (~8.5M rows) using chunked inserts with `pandas.to_sql()`
+- Used `SQLAlchemy` to connect Python to MySQL
+- Script available at: [`python/connecting_python_mysql.py`](python/connecting_python_mysql.py)
+
+---
+
 ## 🛠️ Tools & Tech Stack
 
-- MySQL 8.0
-- Python 3 (pandas, sqlalchemy, mysql-connector)
-- Power BI-ready views (in progress)
+- **Python 3** (with `pandas`, `sqlalchemy`, `mysql-connector`) for data loading and ETL
+- **MySQL 8.0** for storage, querying, and modeling
+- **SQL** for CTEs, window functions, aggregations, and views
+- **Power BI** (optional) for dashboard visualizations
+
 
 ---
 
@@ -60,6 +70,7 @@ Build a high-performance, SQL-only data model and analytical layer to uncover in
 | **CASE Statements**         | Fare bucketing, time-of-day grouping |
 | **Views**                   | Dashboard-ready logic encapsulated |
 | **Indexes**                 | Improved filter performance |
+| **Python ETL**              | Loaded multi-million row CSV into MySQL using pandas + SQLAlchemy |
 
 ---
 
